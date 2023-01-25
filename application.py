@@ -5,7 +5,7 @@ stack = [7, 6, 2]
 
 @app.route('/')
 def home():
-    return 'api'
+    return 'Sub-Task 1'
 
 @app.route('/api/<val>', methods = ["PUSH"])
 def push(val):
